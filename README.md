@@ -3,6 +3,8 @@ Angular App with Redux to maintain data across components. An excercise in Angul
 <br /><br />
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
+## Steps to run
+  * Clone or download.
+  * Run command `npm install` in the project directory.
+  * Run `ng serve` for a dev server. 
+  * Navigate to `http://localhost:4200/`.
