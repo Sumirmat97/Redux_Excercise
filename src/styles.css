@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    padding: 5% 10px;
+}
+.todo {
+    width: 25%;
+    margin-left: 25%;
+}
+
+.dashboard{
+    width: 25%;
+    background-color: #ccc;
+    padding: 10px;
+}

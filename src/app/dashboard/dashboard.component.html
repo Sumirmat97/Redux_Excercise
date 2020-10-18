@@ -1,0 +1,6 @@
+<div>
+    <h1>Dashboard</h1>
+    <p> Last updated: {{lastUpdateDate | async | date:'mediumTime' }}</p>
+    <p>Total items: {{ count | async }}</p>
+    <button (click)="deleteAll()">Delete All</button>
+</div>

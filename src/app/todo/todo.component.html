@@ -1,0 +1,12 @@
+<div>
+    <h1>Todo List</h1>
+    <input type="text" #inputText /> 
+    <button (click)="add(inputText)"> Add </button>
+    <ul>
+        <li *ngFor="let todo of todos | async">
+            <span (click)="updateItem(todo)" [class.suppressed]="todo.issuppressed"> {{todo.text}} </span> 
+            <button (click)="removeItem(todo)">Delete</button> 
+        </li>
+    </ul>
+
+</div>
